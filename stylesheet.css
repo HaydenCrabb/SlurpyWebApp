@@ -1,0 +1,62 @@
+.playingField {
+	height: 500px;
+	width: 500px;
+	border: 1px solid black;
+}
+.playingField-black {
+	height: 500px;
+	width: 500px;
+	border: 1px solid black;
+	background-color: black;
+}
+.player {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	top: 0px;
+	left: 0px;
+	background-color: green;
+}
+.enemy {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	top: 0px;
+	left: 0px;
+	border: 1px solid white inset;
+	background-color: blue;
+}
+.upgrade {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	top: 0px;
+	left: 0px;
+	background-color: red;
+}
+.wall {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+	border: 1px solid white inset;
+}
+.wall-white {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	border: 1px solid white inset;
+}
+.highScore {
+	position: absolute;
+	top: 50px;
+	left: 600px;
+}
